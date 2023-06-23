@@ -72,7 +72,7 @@ Before running `device_power/CAISO_MISO_webcam_experiments.py` you must first st
 
 This value will be prompted by `device_power/CAISO_MISO_webcam_experiments.py` so please make note of it.
 
-Before running `network/route_estimator.py` you need to get an API key from [CO2 Signal](https://www.co2signal.com/ and you will be prompted for it similar to the above) 
+Before running `network/route_estimator.py` you need to get an API key from [CO2 Signal](https://www.co2signal.com/) and you will be prompted for it similar to above. 
 
 # Results
 The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. All of the plots are in the `figs/` directory. The emission intensity estimate for internet data transfer at the time of the experiment is found in `network/result.json` 
