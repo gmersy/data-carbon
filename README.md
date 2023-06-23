@@ -1,4 +1,5 @@
 # Toward a Life Cycle Assessment for the Carbon Footprint of Data
+![Screenshot](figs/teaser.png)
 ## Data has a carbon footprint
 Data has a carbon footprint, but it is difficult to track down a carbon cost estimate due to the many complexities of its life cycle, like when data is exchanged between two separate parties. Without estimates for costs, it is difficult to know how to best develop and evaluate methods for carbon emission reduction throughout its life cycle. In our HotCarbon 2023 paper, we outline a technical framework for performing carbon accounting on data and also define new opportunities for carbon reduction. In doing so, we two categories: embodied and operational. Embodied carbon corresponds to the carbon from collecting, tranferring, and storing data. Operational carbon corresponds to using data. We don't want to waste computational resources on data that isn't ever used (data with high embodied costs compared to the operational costs)!   
 
