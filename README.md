@@ -1,6 +1,6 @@
 # Toward a Life Cycle Assessment for the Carbon Footprint of Data
 ## Data has a carbon footprint
-Data has a carbon footprint, but it is difficult to track down a carbon cost estimate due to the many complexities of its life cycle, like when data is exchanged between two separate parties. Without estimates for costs, it is difficult to know how to best develop and evaluate methods for carbon emission reduction throughout its life cycle. In our HotCarbon 2023 paper, we outline a technical framework for performing carbon accounting on data and also define new opportunities for carbon reduction.
+Data has a carbon footprint, but it is difficult to track down a carbon cost estimate due to the many complexities of its life cycle, like when data is exchanged between two separate parties. Without estimates for costs, it is difficult to know how to best develop and evaluate methods for carbon emission reduction throughout its life cycle. In our HotCarbon 2023 paper, we outline a technical framework for performing carbon accounting on data and also define new opportunities for carbon reduction. In doing so, we two categories: embodied and operational. Embodied carbon corresponds to the carbon from collecting, tranferring, and storing data. Operational carbon corresponds to using data. We don't want to waste computational resources on data that isn't ever used (data with high embodied costs compared to the operational costs)!   
 
 ## Purpose of this repository
 This repository serves as a gentle introduction to how we can account for the carbon footprint of data. We focus on two example components of the data life cycle and show how to produce cost estimates: 
@@ -72,7 +72,7 @@ Before running `device_power/CAISO_MISO_webcam_experiments.py` you must first st
 
 This value will be prompted by `device_power/CAISO_MISO_webcam_experiments.py` so please make note of it.
 
-Before running `network/route_estimator.py` you need to get an API key from [CO2 Signal](https://www.co2signal.com/) and you will be prompted for it similar to above. 
+Before running `network/route_estimator.py` you need to get an API key from [CO2 Signal](https://www.co2signal.com/) and you will be prompted for it similar to the above. 
 
 # Results
 The stored results from the 24 short video experiment run on the 2019 Macbook Pro is in `experiment_results/results.csv`. All of the plots are in the `figs/` directory. The emission intensity estimate for internet data transfer at the time of the experiment is found in `network/result.json` 
