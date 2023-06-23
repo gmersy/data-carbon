@@ -1,6 +1,6 @@
 # Toward a Life Cycle Assessment for the Carbon Footprint of Data
 ## Data has a carbon footprint
-Data has a carbon footprint, but it is difficult to track down a carbon cost estimate due to the many complexities of its life cycle, like when data is exchanged between two separate parties. Without estimates for costs, it is difficult to know how to best develop and evaluate methods for carbon emission reduction throughout its life cycle. In our paper, we outline a technical framework for performing carbon accounting on data and also define new opportunities for carbon reduction.
+Data has a carbon footprint, but it is difficult to track down a carbon cost estimate due to the many complexities of its life cycle, like when data is exchanged between two separate parties. Without estimates for costs, it is difficult to know how to best develop and evaluate methods for carbon emission reduction throughout its life cycle. In our HotCarbon 2023 paper, we outline a technical framework for performing carbon accounting on data and also define new opportunities for carbon reduction.
 
 ## Purpose of this repository
 This repository serves as a gentle introduction to how we can account for the carbon footprint of data. We focus on two example components of the data life cycle and show how to produce cost estimates: 
