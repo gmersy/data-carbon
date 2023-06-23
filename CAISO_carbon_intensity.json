@@ -1,0 +1,21 @@
+{
+    "notes": "fossil is not necessarily a LCA, but renewables are from LCA",
+    "fossil_source": "https://www.epa.gov/egrid/data-explorer",
+    "renewable_source": "https://www.nrel.gov/docs/fy21osti/80580.pdf",
+    "Biogas source": "https://onlinelibrary.wiley.com/doi/full/10.1002/elsc.201000073?casa_token=XonEKx8AkwgAAAAA%3APwu3O6k_tPFVCgStvsOudMk-JuxklWwq4WewR1xNd5KG2bQb2M6jldvV6NSDsf6saQm_DsINDgXXeuU",
+    "Import source": "https://www.caiso.com/Documents/GreenhouseGasEmissionsTracking-Methodology.pdf",
+    "fossil_source_year": 2020,
+    "grid": "CAISO",
+    "unit": "kg CO2e/MWh",
+    "Coal" : 514.21499025,
+    "Natural gas" : 405.139633,
+    "Wind" : 13,
+    "Nuclear" : 13,
+    "Solar" : 43,
+    "Small hydro" : 21,
+    "Large hydro" : 21,
+    "Biomass" : 52,
+    "Geothermal" : 37,
+    "Biogas" : 136.1,
+    "Imports": 428
+}

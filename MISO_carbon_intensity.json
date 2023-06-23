@@ -1,0 +1,14 @@
+{
+    "notes": "fossil is not necessarily a LCA, but renewables are from LCA",
+    "fossil_source": "https://www.epa.gov/egrid/data-explorer",
+    "renewable_source": "https://www.nrel.gov/docs/fy21osti/80580.pdf",
+    "fossil_source_year": 2020,
+    "grid": "MISO",
+    "unit": "kg CO2e/MWh",
+    "Coal" : 1012.9534088,
+    "Gas" : 411.313025,
+    "Wind" : 13,
+    "Nuclear" : 13,
+    "Solar" : 43,
+    "Hydro" : 21
+}
