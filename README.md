@@ -32,13 +32,13 @@ Figure        | Data Source(s)
 # Carbon Intensity Methodology
 The carbon intensity of each generation source in kg CO2e/MWh = g CO2e/kWh for the Midwest Independent System Operator and the California Independent System Operator are in `MISO_carbon_intensity.json` and `CAISO_carbon_intensity.json` respectively. Each JSON object contains the links to the references.
 
-## CI for Low-Carbon Sources
+## CI for low-carbon sources
 Low-carbon sources are given life cycle carbon intensities. This metric includes emissions from manufacturing renewable components, ongoing operations, and disposing of the materials at the end of the component lifetime. We rely on metrics from the [National Renewable Energy Lab](https://www.nrel.gov/docs/fy21osti/80580.pdf) that calibrate a median life cycle value across multiple published life cycle asessments. For CAISO, the biogas CI is derived from a [study](https://onlinelibrary.wiley.com/doi/full/10.1002/elsc.201000073?casa_token=XonEKx8AkwgAAAAA%3APwu3O6k_tPFVCgStvsOudMk-JuxklWwq4WewR1xNd5KG2bQb2M6jldvV6NSDsf6saQm_DsINDgXXeuU) where the CI is the average of the 10 plant CIs given in Figure 3 of their paper. 
 
-## CI for Fossil Fuels
+## CI for fossil fuels
 The fossil fuels are given a grid-specific *combustion CI* derived from historical 2020 data to improve the geographical accuracy of the grid carbon intensities. Combustion CI does not include the rest of the power plant life cycle. You can visualize the data [here](https://www.epa.gov/egrid/data-explorer) by selecting **output emission rates (lb/MWh)** for **CO2 equivalent** for **all fuels** at the **balancing authority level** for **2020**. From there, you can click on the MISO and CAISO grids by navigating to the Midwest or California on the map. 
 
-## Average CI for the Grid
+## Average CI for the grid
 Let $G_t$ denote the total power generation in MW at time $t$, $G_{ts}$ denote the generation in MW at time $t$ by generation source $s \in S$, and $CI_s$ denote the carbon intensity in kg CO2 e/MWh of generation source $s \in S$. Then, we define the average carbon intensity $C_t$ at time $t$ as: 
 $$C_t = \sum_{s \in S} (G_{ts} / {G_t}) \times CI_s$$
 where the total generation is
